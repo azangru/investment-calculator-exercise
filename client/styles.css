@@ -1,0 +1,99 @@
+html {
+  font-size: 10px;
+}
+html,
+body,
+main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+main {
+  background: linear-gradient(to bottom, #001c4b, #0068b6, #001c4b);
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+h1 {
+  color: #99ca3d;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1.2em;
+}
+.calculator-container {
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
+  min-width: 600px;
+}
+.calculator {
+  position: relative;
+  border: 2px solid #0069bc;
+  border-radius: 20px;
+  background: #00203e;
+  opacity: 0.45;
+  width: 800px;
+  height: 300px;
+  box-shadow: 0px 40px 20px -30px rgba(0,0,0,0.75);
+}
+.calculator-left-panel {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+.accounts-list th,
+.accounts-list td {
+  padding: 0.5em 0;
+  margin: 0;
+}
+.accounts-list th:first-child,
+.accounts-list td:first-child {
+  padding-right: 1em;
+}
+.accounts-list table {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.accounts-list table thead {
+  color: #999;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.accounts-list table tbody {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.accounts-list table tbody tr {
+  background: #00f;
+}
+.right-arrow {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.right-arrow img {
+  height: 100%;
+  color: #00f;
+}
+.graph {
+  position: absolute;
+  opacity: 0.3;
+  left: 0;
+  top: 65%;
+  z-index: 0;
+  width: 100%;
+  height: 100px;
+  width: 100%;
+  background-image: url("./images/graph.png");
+}

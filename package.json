@@ -1,0 +1,25 @@
+{
+  "name": "calculator",
+  "version": "0.0.0",
+  "description": "Training in layout",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Azov",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "express": "~4.13.3",
+    "path": "~0.12.7"
+  },
+  "devDependencies": {
+    "postcss-normalize": "~0.1.1",
+    "postcss-nested": "~1.0.0",
+    "gulp-postcss": "~6.0.0",
+    "gulp-stylus": "~2.0.7",
+    "gulp-autoprefixer": "~3.0.1",
+    "gulp-watch": "~4.3.5",
+    "autoprefixer-stylus": "~0.7.1"
+  }
+}
