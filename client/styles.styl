@@ -44,25 +44,28 @@ h1
   width: 40%
 
 .accounts-list
-  th, td
-    padding: 0.5em 0
-    margin: 0
-  th:first-child, td:first-child
-    padding-right: 1em
-  table
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    height: 80%
-    margin-top: 10%
-    margin-left: 5%
-    thead
-      color: #999999
-      font-size: 1.5rem
-      font-style: italic
-    tbody
-      color: white
-      font-size: 1.8rem
-      tr
-        background: blue
+  height: 80%
+  margin-top: 10%
+  margin-left: 5%
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  .accounts-headings
+    margin-bottom: 1em
+    color: #999999
+    font-size: 1.5rem
+    font-style: italic
+    span:first-child
+      display: inline-block
+      width: 25%
+  .accounts-list-item
+    color: white
+    font-size: 1.8rem
+    &.active
+      background: blue
+    span
+      padding-left: 0.5rem
+    span:first-child
+      display: inline-block
+      width: 25%    
   
 .right-arrow
   height: 100%

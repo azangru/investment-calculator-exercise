@@ -49,32 +49,35 @@ h1 {
   height: 100%;
   width: 40%;
 }
-.accounts-list th,
-.accounts-list td {
-  padding: 0.5em 0;
-  margin: 0;
-}
-.accounts-list th:first-child,
-.accounts-list td:first-child {
-  padding-right: 1em;
-}
-.accounts-list table {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+.accounts-list {
   height: 80%;
   margin-top: 10%;
   margin-left: 5%;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
-.accounts-list table thead {
+.accounts-list .accounts-headings {
+  margin-bottom: 1em;
   color: #999;
   font-size: 1.5rem;
   font-style: italic;
 }
-.accounts-list table tbody {
+.accounts-list .accounts-headings span:first-child {
+  display: inline-block;
+  width: 25%;
+}
+.accounts-list .accounts-list-item {
   color: #fff;
   font-size: 1.8rem;
 }
-.accounts-list table tbody tr {
+.accounts-list .accounts-list-item.active {
   background: #00f;
+}
+.accounts-list .accounts-list-item span {
+  padding-left: 0.5rem;
+}
+.accounts-list .accounts-list-item span:first-child {
+  display: inline-block;
+  width: 25%;
 }
 .right-arrow {
   height: 100%;
