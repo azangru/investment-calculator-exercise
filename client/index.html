@@ -2,7 +2,10 @@
 <html>
   <head>
     <link href="styles.css" rel="stylesheet">
-    <script src=script.js></script>
+    <link href="vendor/jquery-ui.min.css" rel="stylesheet">
+    <script src="vendor/jquery-2.1.4.min.js"></script>
+    <script src="vendor/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -46,12 +49,18 @@
           </div>
 
           <div class="calculator-right-panel">
-            <div class="slider">
-              <input type="range" id="investment" min="1" value="10" max="10000" step="100">
+            <div class="slider-container">
+              <div class="slider"></div>
             </div>
             <div class="info">
-              <div class="today"></div>
-              <div class="next-year"></div>
+              <div class="today">
+                <div class="label">Сегодня ваш депозит бы составил</div>
+                <div class="value">1 265 $</div>
+              </div>
+              <div class="next-year">
+                <div class="label">За год при повторении вклада вы заработали бы</div>
+                <div class="value">27 432 $</div>
+              </div>
             </div>
           </div>
             
