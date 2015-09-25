@@ -79,6 +79,9 @@ h1 {
   background: #6cf;
   border-radius: 10px;
 }
+.accounts-list .accounts-list-item.active a {
+  color: #19323f;
+}
 .accounts-list .accounts-list-item span {
   padding-left: 0.5rem;
   vertical-align: middle;
@@ -86,6 +89,11 @@ h1 {
 .accounts-list .accounts-list-item span:first-child {
   display: inline-block;
   width: 9rem;
+}
+.accounts-list .accounts-list-item a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dashed;
 }
 .right-arrow {
   height: 100%;
